@@ -1,0 +1,153 @@
+:root {
+    --main-color: #fdfdfd;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+
+
+
+/* Start font */
+.light-font {
+    color: var(--main-color);
+}
+
+.dark-font {
+    color: #333333;
+}
+
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.poppins-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.poppins-semi-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* End font */
+
+/* padding section */
+#tentang,
+#layanan,
+#kontak,
+#corousel {
+    padding-top: 5rem;
+}
+
+#lokasi {
+    padding-top: 6rem;
+}
+
+/* section,
+footer {
+    padding-top: 5rem;
+}
+
+#kontak,
+#lokasi {
+    padding-top: 6rem;
+} */
+
+/* padding section */
+
+
+/* Start atur ukuran font size */
+/* Start <sm */
+@media only screen and (max-width:576px) {
+    .poppins-bold {
+        font-size: 1.50rem;
+    }
+
+    .poppins-regular {
+        font-size: 1rem;
+    }
+}
+
+/* End <sm */
+
+/* Start sm */
+@media only screen and (min-width:576px) {
+    .poppins-semi-bold {
+        font-size: 1.5rem;
+    }
+
+    .poppins-bold {
+        font-size: 1.50rem;
+    }
+
+    .poppins-regular {
+        font-size: 1.1rem;
+    }
+}
+
+/* End sm */
+
+/* for md */
+@media only screen and (min-width:768px) {
+    .poppins-regular {
+        font-size: 1.125rem;
+    }
+}
+
+/* End md */
+
+/* for lg */
+@media only screen and (min-width:992px) {
+    .poppins-semi-bold {
+        font-size: 1.75rem;
+    }
+
+    .poppins-bold {
+        font-size: 1.75rem;
+    }
+
+    .poppins-regular {
+        font-size: 1.125rem;
+    }
+}
+
+/* End lg */
+
+/* Start xl */
+@media only screen and (min-width:1400px) {
+    .poppins-regular {
+        font-size: 1.75rem;
+    }
+}
+
+/* End xl */
+
+/* Start XXL */
+@media only screen and (min-width:1400px) {
+    .poppins-regular {
+        font-size: 2rem;
+    }
+}
+
+
+/* End XXL */
+
+/* End Atur ukuran font size */
